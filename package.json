@@ -1,0 +1,25 @@
+{
+  "name": "hackathon-sample-server",
+  "version": "1.0.0",
+  "description": "Hackathon sample log provider server",
+  "main": "index.js",
+  "repository": "git@code.venom360.com:hackathon/sample-server.git",
+  "author": "Andy Brenneke <abrenneke@d2.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.4.0",
+    "moment": "^2.21.0",
+    "nconf": "^0.10.0",
+    "node-crate": "^2.0.3",
+    "rethinkdbdash": "^2.3.31",
+    "socket.io": "^2.0.4"
+  }
+}
